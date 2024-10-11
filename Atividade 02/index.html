@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Criptografia e Segurança da Informação no Front-End</title>
+    <script type="text/javascript" src="JS/script.js" defer=""></script>
+    <link rel="stylesheet" href="Estilo/style.css">
+  </head>
+
+  <body>
+
+    <div class="container">
+      <h1>Criptografia e Segurança da Informação no Front-End Web</h1>
+      <p>Este exemplo demonstra como a criptografia pode ser utilizada no Front-End para proteger informações antes de serem enviadas para o servidor.</p>
+
+      <h2>Exemplo de Criptografia Simples</h2>
+      <div class="input-section">
+        <label for="inputText">Digite um texto para criptografar:</label><br>
+        <input type="text" id="inputText" placeholder="Digite seu texto aqui"><br><br>
+        <button onclick="criptografar()">Criptografar</button>
+      </div>
+
+      <div class="output-section">
+        <h3>Texto Criptografado:</h3>
+        <p id="outputText"></p>
+      </div>
+
+      <h2>Segurança com Validação de Formulário</h2>
+      <form onsubmit="return validarFormulario()">
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" required=""><br><br>
+        <label for="password">Senha:</label><br>
+        <input type="password" id="password" required=""><br><br>
+        <button type="submit">Enviar</button>
+      </form>
+    </div>
+
+
+
+  </body>
+
+</html>
